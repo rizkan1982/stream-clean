@@ -1543,7 +1543,7 @@
             sendBtn.innerHTML = '<div class="loading"></div> <span>Mengirim...</span>';
             
             try {
-                const res = await fetch("http://localhost:3000/api/chat", {
+                const res = await fetch("https://stream-clean-git-main-rizkan1982s-projects.vercel.app/api/chat", {
                     method: "POST",
                     headers: { "Content-Type": "application/json" },
                     body: JSON.stringify({ message })
